@@ -88,7 +88,7 @@ Las líneas que salen del engranaje no son circuitos: son los tallos y las raíc
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/franferre9098"><img src="https://github.com/franferre9098.png" width="96" alt="Francisco Ferreyra" /></a><br />
-<b>Francisco Ferryra</b><br />
+<b>Francisco Ferreyra</b><br />
 <sub>Developer en formación</sub><br />
 <a href="https://github.com/franferre9098">@franferre9098</a>
 </td>
