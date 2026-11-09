@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1204" height="518" viewBox="0 0 1204 518" role="img" aria-label="Tecnologías y herramientas">
+<style>
+.h{font:700 26px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7}
+.hs{font:400 15px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5}
+.nm{font:700 16px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7}
+.sb{font:400 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5}
+.tile{opacity:0;animation:in .6s ease-out forwards}
+.float{animation:float 5s ease-in-out infinite}
+.bar{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:fill 1.2s ease-out forwards}
+@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes float{50%{transform:translateY(-3px)}}
+@keyframes fill{to{transform:scaleX(1)}}
+.t0{animation-delay:0.00s}.b0{animation-delay:0.60s}.t1{animation-delay:0.08s}.b1{animation-delay:0.68s}.t2{animation-delay:0.16s}.b2{animation-delay:0.76s}.t3{animation-delay:0.24s}.b3{animation-delay:0.84s}.t4{animation-delay:0.32s}.b4{animation-delay:0.92s}.t5{animation-delay:0.40s}.b5{animation-delay:1.00s}.t6{animation-delay:0.48s}.b6{animation-delay:1.08s}.t7{animation-delay:0.56s}.b7{animation-delay:1.16s}.t8{animation-delay:0.64s}.b8{animation-delay:1.24s}.t9{animation-delay:0.72s}.b9{animation-delay:1.32s}.t10{animation-delay:0.80s}.b10{animation-delay:1.40s}.t11{animation-delay:0.88s}.b11{animation-delay:1.48s}.t12{animation-delay:0.96s}.b12{animation-delay:1.56s}.t13{animation-delay:1.04s}.b13{animation-delay:1.64s}.t14{animation-delay:1.12s}.b14{animation-delay:1.72s}.f0{animation-delay:0.0s}.f1{animation-delay:0.4s}.f2{animation-delay:0.8s}.f3{animation-delay:1.2s}.f4{animation-delay:1.6s}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.tile,.box,.fade,.pop{opacity:1!important}.bar{transform:none!important}.draw{stroke-dashoffset:0!important}}
+</style>
+<rect width="1204" height="518" rx="18" fill="#0B1220"/>
+<text class="h" x="40" y="58">Tecnologías y herramientas</text>
+<text class="hs" x="40" y="84">.NET · APIs · IDEs · asistentes de IA</text>
+<circle cx="1156" cy="52" r="6" fill="#00E5FF"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle>
+<g class="tile t0"><g class="float f0">
+<rect x="40" y="110" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="40" y="110" width="4" height="112" rx="2" fill="#512BD4"/>
+<rect x="58" y="130" width="52" height="52" rx="12" fill="#512BD4"/>
+<text x="84" y="162" text-anchor="middle" style="font:800 17px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">.NET</text>
+<text class="nm" x="122" y="154">.NET 10</text>
+<text class="sb" x="122" y="176">plataforma</text>
+<rect x="58" y="198" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b0" x="58" y="198" width="176" height="4" rx="2" fill="#512BD4"/>
+</g></g><g class="tile t1"><g class="float f1">
+<rect x="268" y="110" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="268" y="110" width="4" height="112" rx="2" fill="#5C2D91"/>
+<rect x="286" y="130" width="52" height="52" rx="12" fill="#5C2D91"/>
+<text x="312" y="164" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">ASP</text>
+<text class="nm" x="350" y="154">ASP.NET Core</text>
+<text class="sb" x="350" y="176">Web API</text>
+<rect x="286" y="198" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b1" x="286" y="198" width="176" height="4" rx="2" fill="#5C2D91"/>
+</g></g><g class="tile t2"><g class="float f2">
+<rect x="496" y="110" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="496" y="110" width="4" height="112" rx="2" fill="#68217A"/>
+<rect x="514" y="130" width="52" height="52" rx="12" fill="#68217A"/>
+<text x="540" y="164" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">ADO</text>
+<text class="nm" x="578" y="154">ADO.NET</text>
+<text class="sb" x="578" y="176">acceso a datos</text>
+<rect x="514" y="198" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b2" x="514" y="198" width="176" height="4" rx="2" fill="#68217A"/>
+</g></g><g class="tile t3"><g class="float f3">
+<rect x="724" y="110" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="724" y="110" width="4" height="112" rx="2" fill="#00E5FF"/>
+<rect x="742" y="130" width="52" height="52" rx="12" fill="#00E5FF"/>
+<text x="768" y="164" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#0B1220">API</text>
+<text class="nm" x="806" y="154">API REST</text>
+<text class="sb" x="806" y="176">JSON · HTTP</text>
+<rect x="742" y="198" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b3" x="742" y="198" width="176" height="4" rx="2" fill="#00E5FF"/>
+</g></g><g class="tile t4"><g class="float f4">
+<rect x="952" y="110" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="952" y="110" width="4" height="112" rx="2" fill="#D63AFF"/>
+<rect x="970" y="130" width="52" height="52" rx="12" fill="#D63AFF"/>
+<text x="996" y="164" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">JWT</text>
+<text class="nm" x="1034" y="154">JWT</text>
+<text class="sb" x="1034" y="176">autenticación</text>
+<rect x="970" y="198" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b4" x="970" y="198" width="176" height="4" rx="2" fill="#D63AFF"/>
+</g></g><g class="tile t5"><g class="float f0">
+<rect x="40" y="238" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="40" y="238" width="4" height="112" rx="2" fill="#5C2D91"/>
+<rect x="58" y="258" width="52" height="52" rx="12" fill="#5C2D91"/>
+<text x="84" y="292" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">VS</text>
+<text class="nm" x="122" y="282">Visual Studio</text>
+<text class="sb" x="122" y="304">IDE .NET</text>
+<rect x="58" y="326" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b5" x="58" y="326" width="176" height="4" rx="2" fill="#5C2D91"/>
+</g></g><g class="tile t6"><g class="float f1">
+<rect x="268" y="238" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="268" y="238" width="4" height="112" rx="2" fill="#007ACC"/>
+<rect x="286" y="258" width="52" height="52" rx="12" fill="#007ACC"/>
+<text x="312" y="292" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">&lt;/&gt;</text>
+<text class="nm" x="350" y="282">VS Code</text>
+<text class="sb" x="350" y="304">editor</text>
+<rect x="286" y="326" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b6" x="286" y="326" width="176" height="4" rx="2" fill="#007ACC"/>
+</g></g><g class="tile t7"><g class="float f2">
+<rect x="496" y="238" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="496" y="238" width="4" height="112" rx="2" fill="#FE315D"/>
+<rect x="514" y="258" width="52" height="52" rx="12" fill="#FE315D"/>
+<text x="540" y="292" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">IJ</text>
+<text class="nm" x="578" y="282">IntelliJ IDEA</text>
+<text class="sb" x="578" y="304">IDE Java</text>
+<rect x="514" y="326" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b7" x="514" y="326" width="176" height="4" rx="2" fill="#FE315D"/>
+</g></g><g class="tile t8"><g class="float f3">
+<rect x="724" y="238" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="724" y="238" width="4" height="112" rx="2" fill="#3DDC84"/>
+<rect x="742" y="258" width="52" height="52" rx="12" fill="#3DDC84"/>
+<text x="768" y="292" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#0B1220">AS</text>
+<text class="nm" x="806" y="282">Android Studio</text>
+<text class="sb" x="806" y="304">IDE Android</text>
+<rect x="742" y="326" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b8" x="742" y="326" width="176" height="4" rx="2" fill="#3DDC84"/>
+</g></g><g class="tile t9"><g class="float f4">
+<rect x="952" y="238" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="952" y="238" width="4" height="112" rx="2" fill="#F05032"/>
+<rect x="970" y="258" width="52" height="52" rx="12" fill="#F05032"/>
+<text x="996" y="292" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">Git</text>
+<text class="nm" x="1034" y="282">Git · GitHub</text>
+<text class="sb" x="1034" y="304">versionado</text>
+<rect x="970" y="326" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b9" x="970" y="326" width="176" height="4" rx="2" fill="#F05032"/>
+</g></g><g class="tile t10"><g class="float f0">
+<rect x="40" y="366" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="40" y="366" width="4" height="112" rx="2" fill="#D97757"/>
+<rect x="58" y="386" width="52" height="52" rx="12" fill="#D97757"/>
+<text x="84" y="420" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">CC</text>
+<text class="nm" x="122" y="410">Claude Code</text>
+<text class="sb" x="122" y="432">agente código</text>
+<rect x="58" y="454" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b10" x="58" y="454" width="176" height="4" rx="2" fill="#D97757"/>
+</g></g><g class="tile t11"><g class="float f1">
+<rect x="268" y="366" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="268" y="366" width="4" height="112" rx="2" fill="#4285F4"/>
+<rect x="286" y="386" width="52" height="52" rx="12" fill="#4285F4"/>
+<text x="312" y="420" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">G</text>
+<text class="nm" x="350" y="410">Gemini</text>
+<text class="sb" x="350" y="432">asistente IA</text>
+<rect x="286" y="454" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b11" x="286" y="454" width="176" height="4" rx="2" fill="#4285F4"/>
+</g></g><g class="tile t12"><g class="float f2">
+<rect x="496" y="366" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="496" y="366" width="4" height="112" rx="2" fill="#1A73E8"/>
+<rect x="514" y="386" width="52" height="52" rx="12" fill="#1A73E8"/>
+<text x="540" y="420" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">AG</text>
+<text class="nm" x="578" y="410">Antigravity</text>
+<text class="sb" x="578" y="432">IDE agéntico</text>
+<rect x="514" y="454" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b12" x="514" y="454" width="176" height="4" rx="2" fill="#1A73E8"/>
+</g></g><g class="tile t13"><g class="float f3">
+<rect x="724" y="366" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="724" y="366" width="4" height="112" rx="2" fill="#FF6C37"/>
+<rect x="742" y="386" width="52" height="52" rx="12" fill="#FF6C37"/>
+<text x="768" y="420" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">PM</text>
+<text class="nm" x="806" y="410">Postman</text>
+<text class="sb" x="806" y="432">pruebas de API</text>
+<rect x="742" y="454" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b13" x="742" y="454" width="176" height="4" rx="2" fill="#FF6C37"/>
+</g></g><g class="tile t14"><g class="float f4">
+<rect x="952" y="366" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="952" y="366" width="4" height="112" rx="2" fill="#85EA2D"/>
+<rect x="970" y="386" width="52" height="52" rx="12" fill="#85EA2D"/>
+<text x="996" y="420" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#0B1220">SW</text>
+<text class="nm" x="1034" y="410">Swagger</text>
+<text class="sb" x="1034" y="432">docs de la API</text>
+<rect x="970" y="454" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b14" x="970" y="454" width="176" height="4" rx="2" fill="#85EA2D"/>
+</g></g>
+</svg>

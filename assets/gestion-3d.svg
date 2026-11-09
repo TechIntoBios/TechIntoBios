@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-label="Gestión 3D: arquitectura del sistema y seguimiento de pedidos">
+<style>
+.h{font:700 26px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7}
+.hs{font:400 15px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5}
+.bt{font:700 19px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7}
+.b1{font:600 15px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#E6EDF7}
+.b2{font:400 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5}
+.tag{font:700 12px Consolas,'SF Mono',Menlo,'Courier New',monospace}
+.lbl{font:500 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5}
+.box{opacity:0;animation:in .7s ease-out forwards}.k0{animation-delay:.2s}.k1{animation-delay:.45s}.k2{animation-delay:.7s}.k3{animation-delay:.95s}
+@keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.tile,.box,.fade,.pop{opacity:1!important}.bar{transform:none!important}.draw{stroke-dashoffset:0!important}}
+</style>
+<rect width="1200" height="540" rx="18" fill="#0B1220"/>
+<text class="h" x="60" y="56">Gestión 3D · ZUNOX 3D</text>
+<text class="hs" x="60" y="80">primer proyecto real · gestión de un emprendimiento de impresión 3D</text>
+
+<g>
+<rect x="60" y="90" width="350" height="360" rx="18" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="80" y="110" width="14" height="320" rx="4" fill="#1F2A44"/>
+<rect x="376" y="110" width="14" height="320" rx="4" fill="#1F2A44"/>
+<rect x="110" y="392" width="250" height="12" rx="4" fill="#2A3756"/>
+<rect x="161.0" y="374" height="14" rx="3" fill="#00E5FF" width="0"><animate attributeName="width" dur="8s" repeatCount="indefinite" keyTimes="0;0.04;0.12;.92;1" values="0;0;148;148;0"/></rect><rect x="154.0" y="358" height="14" rx="3" fill="#00E5FF" width="0"><animate attributeName="width" dur="8s" repeatCount="indefinite" keyTimes="0;0.13;0.21;.92;1" values="0;0;162;162;0"/></rect><rect x="147.0" y="342" height="14" rx="3" fill="#33D6F5" width="0"><animate attributeName="width" dur="8s" repeatCount="indefinite" keyTimes="0;0.22;0.30;.92;1" values="0;0;176;176;0"/></rect><rect x="140.0" y="326" height="14" rx="3" fill="#66C6EB" width="0"><animate attributeName="width" dur="8s" repeatCount="indefinite" keyTimes="0;0.31;0.39;.92;1" values="0;0;190;190;0"/></rect><rect x="147.0" y="310" height="14" rx="3" fill="#FF9F1C" width="0"><animate attributeName="width" dur="8s" repeatCount="indefinite" keyTimes="0;0.40;0.48;.92;1" values="0;0;176;176;0"/></rect><rect x="154.0" y="294" height="14" rx="3" fill="#FF9F1C" width="0"><animate attributeName="width" dur="8s" repeatCount="indefinite" keyTimes="0;0.49;0.57;.92;1" values="0;0;162;162;0"/></rect><rect x="161.0" y="278" height="14" rx="3" fill="#FFE23B" width="0"><animate attributeName="width" dur="8s" repeatCount="indefinite" keyTimes="0;0.58;0.66;.92;1" values="0;0;148;148;0"/></rect><rect x="168.0" y="262" height="14" rx="3" fill="#FF3B3B" width="0"><animate attributeName="width" dur="8s" repeatCount="indefinite" keyTimes="0;0.67;0.75;.92;1" values="0;0;134;134;0"/></rect>
+<g>
+<animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.13;0.22;0.31;0.40;0.49;0.58;0.67" values="0 0;0 -16;0 -32;0 -48;0 -64;0 -80;0 -96;0 -112"/>
+<rect x="80" y="340" width="310" height="8" rx="4" fill="#2A3756"/>
+<g>
+<animateTransform attributeName="transform" type="translate" dur="1s" repeatCount="indefinite" values="0 0;150 0;0 0"/>
+<rect x="152" y="326" width="36" height="28" rx="5" fill="#E6EDF7"/>
+<path d="M162 354 h16 l-8 12 z" fill="#FF9F1C"/>
+</g>
+</g>
+<text x="235" y="435" text-anchor="middle" style="font:600 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5">imprimiendo pedido #0042…</text>
+</g>
+
+<path d="M790 165.0 H840 M1000.0 230 V300 M840 365.0 H790" stroke="#1F2A44" stroke-width="3" fill="none" stroke-dasharray="6 8"><animate attributeName="stroke-dashoffset" from="0" to="-28" dur="1s" repeatCount="indefinite"/></path>
+<circle r="6" fill="#00E5FF"><animateMotion dur="3s" repeatCount="indefinite" path="M790 165 H840"/></circle>
+<circle r="6" fill="#7B5CFF"><animateMotion dur="3s" begin="1s" repeatCount="indefinite" path="M1000.0 230 V300"/></circle>
+<circle r="6" fill="#FF9F1C"><animateMotion dur="3s" begin="2s" repeatCount="indefinite" path="M840 365 H790"/></circle>
+<text x="815" y="150" text-anchor="middle" class="lbl">HTTP</text>
+<text x="1014.0" y="270" class="lbl">consultas SQL</text>
+<text x="815" y="392" text-anchor="middle" class="lbl">SQL</text>
+
+<g class="box k0">
+<rect x="470" y="100" width="320" height="130" rx="16" fill="#111A2E" stroke="#00E5FF" stroke-opacity=".55"/>
+<circle cx="498" cy="134" r="7" fill="#00E5FF"><animate attributeName="r" values="6;8;6" dur="2s" begin="0.0s" repeatCount="indefinite"/></circle>
+<text x="516" y="141" class="bt">Cliente web</text>
+<rect x="704" y="120" width="66" height="26" rx="13" fill="#00E5FF" fill-opacity=".15"/>
+<text x="737" y="138" text-anchor="middle" class="tag" fill="#00E5FF">Vercel</text>
+<text x="494" y="180" class="b1">HTML · CSS · JavaScript</text>
+<text x="494" y="206" class="b2">catálogo · consultas · seguimiento</text>
+</g><g class="box k1">
+<rect x="840" y="100" width="320" height="130" rx="16" fill="#111A2E" stroke="#7B5CFF" stroke-opacity=".55"/>
+<circle cx="868" cy="134" r="7" fill="#7B5CFF"><animate attributeName="r" values="6;8;6" dur="2s" begin="0.5s" repeatCount="indefinite"/></circle>
+<text x="886" y="141" class="bt">API REST</text>
+<rect x="1074" y="120" width="66" height="26" rx="13" fill="#7B5CFF" fill-opacity=".15"/>
+<text x="1107" y="138" text-anchor="middle" class="tag" fill="#7B5CFF">Render</text>
+<text x="864" y="180" class="b1">ASP.NET Core · .NET 10</text>
+<text x="864" y="206" class="b2">JWT en cookie · rate limit · BCrypt</text>
+</g><g class="box k2">
+<rect x="840" y="300" width="320" height="130" rx="16" fill="#111A2E" stroke="#FF9F1C" stroke-opacity=".55"/>
+<circle cx="868" cy="334" r="7" fill="#FF9F1C"><animate attributeName="r" values="6;8;6" dur="2s" begin="1.0s" repeatCount="indefinite"/></circle>
+<text x="886" y="341" class="bt">Acceso a datos</text>
+<rect x="1074" y="320" width="66" height="26" rx="13" fill="#FF9F1C" fill-opacity=".15"/>
+<text x="1107" y="338" text-anchor="middle" class="tag" fill="#FF9F1C">C#</text>
+<text x="864" y="380" class="b1">ADO.NET · Npgsql</text>
+<text x="864" y="406" class="b2">DAO → Negocio → Controllers</text>
+</g><g class="box k3">
+<rect x="470" y="300" width="320" height="130" rx="16" fill="#111A2E" stroke="#4F8CC9" stroke-opacity=".55"/>
+<circle cx="498" cy="334" r="7" fill="#4F8CC9"><animate attributeName="r" values="6;8;6" dur="2s" begin="1.5s" repeatCount="indefinite"/></circle>
+<text x="516" y="341" class="bt">PostgreSQL</text>
+<rect x="704" y="320" width="66" height="26" rx="13" fill="#4F8CC9" fill-opacity=".15"/>
+<text x="737" y="338" text-anchor="middle" class="tag" fill="#4F8CC9">DB</text>
+<text x="494" y="380" class="b1">productos · pedidos · clientes</text>
+<text x="494" y="406" class="b2">categorías · estados · usuarios</text>
+</g>
+<text x="470" y="448" class="lbl" style="fill:#E6EDF7">seguimiento del pedido</text>
+<rect x="470" y="468" width="690" height="4" rx="2" fill="#1F2A44"/><rect x="470" y="468" height="4" rx="2" fill="#00E5FF" width="0"><animate attributeName="width" dur="8s" repeatCount="indefinite" keyTimes="0;.15;.4;.65;.92;1" values="0;0;230;460;690;0"/></rect><circle cx="470.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="470.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.16;.92;1" values="0;0;1;1;0"/></circle><text x="470.0" y="502" text-anchor="middle" class="lbl">Pendiente</text><circle cx="700.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="700.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.40;0.41;.92;1" values="0;0;1;1;0"/></circle><text x="700.0" y="502" text-anchor="middle" class="lbl">Imprimiendo</text><circle cx="930.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="930.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.65;0.66;.92;1" values="0;0;1;1;0"/></circle><text x="930.0" y="502" text-anchor="middle" class="lbl">Listo</text><circle cx="1160.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="1160.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.90;0.91;.92;1" values="0;0;1;1;0"/></circle><text x="1160.0" y="502" text-anchor="middle" class="lbl">Entregado</text>
+</svg>

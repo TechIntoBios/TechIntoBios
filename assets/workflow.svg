@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Cómo trabajamos: escuchamos, analizamos, diseñamos, construimos, entregamos">
+<defs><linearGradient id="gw" x1="0" x2="1"><stop offset="0" stop-color="#00E5FF"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#E040FB"/></linearGradient></defs>
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}.tile,.box,.fade,.pop{opacity:1!important}.bar{transform:none!important}.draw{stroke-dashoffset:0!important}}</style>
+<rect width="1200" height="230" rx="18" fill="#0B1220"/>
+<text x="60" y="46" style="font:700 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7">Cómo trabajamos</text>
+<rect x="60" y="98" width="1080" height="4" rx="2" fill="#1F2A44"/><rect x="60" y="98" height="4" rx="2" fill="url(#gw)" width="0"><animate attributeName="width" dur="6s" repeatCount="indefinite" keyTimes="0;.75;.95;1" values="0;1080;1080;0"/></rect><circle cx="60.0" cy="100" r="28" fill="#111A2E" stroke="#1F2A44" stroke-width="3"/>
+<circle cx="60.0" cy="100" r="28" fill="none" stroke="#00E5FF" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.000;0.010;.95;1" values="0;0;1;1;0"/></circle>
+<text x="60.0" y="107" text-anchor="middle" style="font:700 18px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#E6EDF7">01</text>
+<text x="60.0" y="160" text-anchor="middle" style="font:700 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7">Escuchamos</text>
+<text x="60.0" y="184" text-anchor="middle" style="font:400 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5">el problema real</text><circle cx="330.0" cy="100" r="28" fill="#111A2E" stroke="#1F2A44" stroke-width="3"/>
+<circle cx="330.0" cy="100" r="28" fill="none" stroke="#00E5FF" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.186;0.198;.95;1" values="0;0;1;1;0"/></circle>
+<text x="330.0" y="107" text-anchor="middle" style="font:700 18px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#E6EDF7">02</text>
+<text x="330.0" y="160" text-anchor="middle" style="font:700 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7">Analizamos</text>
+<text x="330.0" y="184" text-anchor="middle" style="font:400 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5">alcance y datos</text><circle cx="600.0" cy="100" r="28" fill="#111A2E" stroke="#1F2A44" stroke-width="3"/>
+<circle cx="600.0" cy="100" r="28" fill="none" stroke="#00E5FF" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.374;0.385;.95;1" values="0;0;1;1;0"/></circle>
+<text x="600.0" y="107" text-anchor="middle" style="font:700 18px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#E6EDF7">03</text>
+<text x="600.0" y="160" text-anchor="middle" style="font:700 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7">Diseñamos</text>
+<text x="600.0" y="184" text-anchor="middle" style="font:400 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5">UI · base · API</text><circle cx="870.0" cy="100" r="28" fill="#111A2E" stroke="#1F2A44" stroke-width="3"/>
+<circle cx="870.0" cy="100" r="28" fill="none" stroke="#00E5FF" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.561;0.573;.95;1" values="0;0;1;1;0"/></circle>
+<text x="870.0" y="107" text-anchor="middle" style="font:700 18px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#E6EDF7">04</text>
+<text x="870.0" y="160" text-anchor="middle" style="font:700 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7">Construimos</text>
+<text x="870.0" y="184" text-anchor="middle" style="font:400 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5">todos en todo</text><circle cx="1140.0" cy="100" r="28" fill="#111A2E" stroke="#1F2A44" stroke-width="3"/>
+<circle cx="1140.0" cy="100" r="28" fill="none" stroke="#00E5FF" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.749;0.760;.95;1" values="0;0;1;1;0"/></circle>
+<text x="1140.0" y="107" text-anchor="middle" style="font:700 18px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#E6EDF7">05</text>
+<text x="1140.0" y="160" text-anchor="middle" style="font:700 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7">Entregamos</text>
+<text x="1140.0" y="184" text-anchor="middle" style="font:400 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5">y acompañamos</text>
+</svg>

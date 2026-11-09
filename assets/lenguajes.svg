@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1204" height="390" viewBox="0 0 1204 390" role="img" aria-label="Lenguajes y bases de datos">
+<style>
+.h{font:700 26px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7}
+.hs{font:400 15px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5}
+.nm{font:700 16px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7}
+.sb{font:400 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5}
+.tile{opacity:0;animation:in .6s ease-out forwards}
+.float{animation:float 5s ease-in-out infinite}
+.bar{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:fill 1.2s ease-out forwards}
+@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes float{50%{transform:translateY(-3px)}}
+@keyframes fill{to{transform:scaleX(1)}}
+.t0{animation-delay:0.00s}.b0{animation-delay:0.60s}.t1{animation-delay:0.08s}.b1{animation-delay:0.68s}.t2{animation-delay:0.16s}.b2{animation-delay:0.76s}.t3{animation-delay:0.24s}.b3{animation-delay:0.84s}.t4{animation-delay:0.32s}.b4{animation-delay:0.92s}.t5{animation-delay:0.40s}.b5{animation-delay:1.00s}.t6{animation-delay:0.48s}.b6{animation-delay:1.08s}.t7{animation-delay:0.56s}.b7{animation-delay:1.16s}.t8{animation-delay:0.64s}.b8{animation-delay:1.24s}.t9{animation-delay:0.72s}.b9{animation-delay:1.32s}.f0{animation-delay:0.0s}.f1{animation-delay:0.4s}.f2{animation-delay:0.8s}.f3{animation-delay:1.2s}.f4{animation-delay:1.6s}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.tile,.box,.fade,.pop{opacity:1!important}.bar{transform:none!important}.draw{stroke-dashoffset:0!important}}
+</style>
+<rect width="1204" height="390" rx="18" fill="#0B1220"/>
+<text class="h" x="40" y="58">Lenguajes y bases de datos</text>
+<text class="hs" x="40" y="84">lo que usamos hoy · Python en camino</text>
+<circle cx="1156" cy="52" r="6" fill="#00E5FF"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle>
+<g class="tile t0"><g class="float f0">
+<rect x="40" y="110" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="40" y="110" width="4" height="112" rx="2" fill="#7B3FA0"/>
+<rect x="58" y="130" width="52" height="52" rx="12" fill="#7B3FA0"/>
+<text x="84" y="164" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">C#</text>
+<text class="nm" x="122" y="154">C#</text>
+<text class="sb" x="122" y="176">lenguaje base</text>
+<rect x="58" y="198" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b0" x="58" y="198" width="176" height="4" rx="2" fill="#7B3FA0"/>
+</g></g><g class="tile t1"><g class="float f1">
+<rect x="268" y="110" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="268" y="110" width="4" height="112" rx="2" fill="#E76F00"/>
+<rect x="286" y="130" width="52" height="52" rx="12" fill="#E76F00"/>
+<text x="312" y="162" text-anchor="middle" style="font:800 17px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">Java</text>
+<text class="nm" x="350" y="154">Java</text>
+<text class="sb" x="350" y="176">back · android</text>
+<rect x="286" y="198" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b1" x="286" y="198" width="176" height="4" rx="2" fill="#E76F00"/>
+</g></g><g class="tile t2"><g class="float f2">
+<rect x="496" y="110" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="496" y="110" width="4" height="112" rx="2" fill="#3DDC84"/>
+<rect x="514" y="130" width="52" height="52" rx="12" fill="#3DDC84"/>
+<text x="540" y="164" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#0B1220">A</text>
+<text class="nm" x="578" y="154">Android</text>
+<text class="sb" x="578" y="176">apps nativas</text>
+<rect x="514" y="198" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b2" x="514" y="198" width="176" height="4" rx="2" fill="#3DDC84"/>
+</g></g><g class="tile t3"><g class="float f3">
+<rect x="724" y="110" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="724" y="110" width="4" height="112" rx="2" fill="#F7DF1E"/>
+<rect x="742" y="130" width="52" height="52" rx="12" fill="#F7DF1E"/>
+<text x="768" y="164" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#0B1220">JS</text>
+<text class="nm" x="806" y="154">JavaScript</text>
+<text class="sb" x="806" y="176">lógica web</text>
+<rect x="742" y="198" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b3" x="742" y="198" width="176" height="4" rx="2" fill="#F7DF1E"/>
+</g></g><g class="tile t4"><g class="float f4">
+<rect x="952" y="110" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="952" y="110" width="4" height="112" rx="2" fill="#E34F26"/>
+<rect x="970" y="130" width="52" height="52" rx="12" fill="#E34F26"/>
+<text x="996" y="164" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">H5</text>
+<text class="nm" x="1034" y="154">HTML</text>
+<text class="sb" x="1034" y="176">estructura web</text>
+<rect x="970" y="198" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b4" x="970" y="198" width="176" height="4" rx="2" fill="#E34F26"/>
+</g></g><g class="tile t5"><g class="float f0">
+<rect x="40" y="238" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="40" y="238" width="4" height="112" rx="2" fill="#2965F1"/>
+<rect x="58" y="258" width="52" height="52" rx="12" fill="#2965F1"/>
+<text x="84" y="292" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">C3</text>
+<text class="nm" x="122" y="282">CSS</text>
+<text class="sb" x="122" y="304">diseño visual</text>
+<rect x="58" y="326" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b5" x="58" y="326" width="176" height="4" rx="2" fill="#2965F1"/>
+</g></g><g class="tile t6"><g class="float f1">
+<rect x="268" y="238" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="268" y="238" width="4" height="112" rx="2" fill="#CC2927"/>
+<rect x="286" y="258" width="52" height="52" rx="12" fill="#CC2927"/>
+<text x="312" y="292" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">SQL</text>
+<text class="nm" x="350" y="282">SQL Server</text>
+<text class="sb" x="350" y="304">T-SQL</text>
+<rect x="286" y="326" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b6" x="286" y="326" width="176" height="4" rx="2" fill="#CC2927"/>
+</g></g><g class="tile t7"><g class="float f2">
+<rect x="496" y="238" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="496" y="238" width="4" height="112" rx="2" fill="#336791"/>
+<rect x="514" y="258" width="52" height="52" rx="12" fill="#336791"/>
+<text x="540" y="292" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">PG</text>
+<text class="nm" x="578" y="282">PostgreSQL</text>
+<text class="sb" x="578" y="304">en producción</text>
+<rect x="514" y="326" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b7" x="514" y="326" width="176" height="4" rx="2" fill="#336791"/>
+</g></g><g class="tile t8"><g class="float f3">
+<rect x="724" y="238" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="724" y="238" width="4" height="112" rx="2" fill="#00758F"/>
+<rect x="742" y="258" width="52" height="52" rx="12" fill="#00758F"/>
+<text x="768" y="292" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">My</text>
+<text class="nm" x="806" y="282">MySQL</text>
+<text class="sb" x="806" y="304">relacional</text>
+<rect x="742" y="326" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b8" x="742" y="326" width="176" height="4" rx="2" fill="#00758F"/>
+</g></g><g class="tile t9"><g class="float f4">
+<rect x="952" y="238" width="212" height="112" rx="14" fill="#111A2E" stroke="#1F2A44"/>
+<rect x="952" y="238" width="4" height="112" rx="2" fill="#0F80CC"/>
+<rect x="970" y="258" width="52" height="52" rx="12" fill="#0F80CC"/>
+<text x="996" y="292" text-anchor="middle" style="font:800 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff">Lt</text>
+<text class="nm" x="1034" y="282">SQLite</text>
+<text class="sb" x="1034" y="304">local · mobile</text>
+<rect x="970" y="326" width="176" height="4" rx="2" fill="#1F2A44"/>
+<rect class="bar b9" x="970" y="326" width="176" height="4" rx="2" fill="#0F80CC"/>
+</g></g>
+</svg>
