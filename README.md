@@ -21,13 +21,13 @@ Trabajamos como equipo, no como tres freelancers sueltos. Todavía no tenemos ro
 
 ## Qué hacemos
 
-| | |
-|---|---|
-| **Páginas y sistemas web** | Sitios, paneles de administración, catálogos y seguimiento de pedidos. |
-| **APIs REST** | Backends en ASP.NET Core con autenticación, validaciones y documentación. |
-| **Apps Android** | Aplicaciones nativas en Java con Android Studio. |
-| **Bases de datos** | Diseño y modelado en SQL Server, PostgreSQL, MySQL y SQLite. |
-| **Soluciones a medida** | Si tenés un problema y no sabés si se resuelve con software, contanos. |
+|                            |                                                                           |
+| -------------------------- | ------------------------------------------------------------------------- |
+| **Páginas y sistemas web** | Sitios, paneles de administración, catálogos y seguimiento de pedidos.    |
+| **APIs REST**              | Backends en ASP.NET Core con autenticación, validaciones y documentación. |
+| **Apps Android**           | Aplicaciones nativas en Java con Android Studio.                          |
+| **Bases de datos**         | Diseño y modelado en SQL Server, PostgreSQL, MySQL y SQLite.              |
+| **Soluciones a medida**    | Si tenés un problema y no sabés si se resuelve con software, contanos.    |
 
 <img src="assets/workflow.svg" width="100%" alt="Cómo trabajamos: escuchamos, analizamos, diseñamos, construimos, entregamos" />
 
@@ -48,7 +48,7 @@ Nuestro primer proyecto real. Es un sistema para un emprendimiento de **impresi�
 
 > Repositorio: [TechIntoBios/Gestion-3D](https://github.com/TechIntoBios/Gestion-3D)
 
-*Próximamente: más proyectos.*
+_Próximamente: más proyectos._
 
 ## Stack
 
@@ -89,7 +89,7 @@ No tenemos roles fijos: todos hacemos de todo y aprendemos entre todos.
 <a href="https://github.com/franferre9098">@franferre9098</a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/jere2003-lab"><img src="https://github.com/jere2003-lab.png" width="96" alt="Jere" /></a><br />
+<a href="https://github.com/jere2003-lab"><img src="https://github.com/jere2003-lab.png" width="96" alt="Jeremías Tortora" /></a><br />
 <b>Jere</b><br />
 <sub>Developer en formación</sub><br />
 <a href="https://github.com/jere2003-lab">@jere2003-lab</a>
