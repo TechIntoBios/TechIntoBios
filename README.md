@@ -90,7 +90,7 @@ No tenemos roles fijos: todos hacemos de todo y aprendemos entre todos.
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/jere2003-lab"><img src="https://github.com/jere2003-lab.png" width="96" alt="Jeremías Tortora" /></a><br />
-<b>Jere</b><br />
+<b>Jeremías Tortora</b><br />
 <sub>Developer en formación</sub><br />
 <a href="https://github.com/jere2003-lab">@jere2003-lab</a>
 </td>
