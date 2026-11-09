@@ -19,7 +19,7 @@
 <circle cx="870.0" cy="100" r="28" fill="none" stroke="#00E5FF" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.561;0.573;.95;1" values="0;0;1;1;0"/></circle>
 <text x="870.0" y="107" text-anchor="middle" style="font:700 18px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#E6EDF7">04</text>
 <text x="870.0" y="160" text-anchor="middle" style="font:700 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7">Construimos</text>
-<text x="870.0" y="184" text-anchor="middle" style="font:400 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5">todos en todo</text><circle cx="1140.0" cy="100" r="28" fill="#111A2E" stroke="#1F2A44" stroke-width="3"/>
+<text x="870.0" y="184" text-anchor="middle" style="font:400 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5">en equipo</text><circle cx="1140.0" cy="100" r="28" fill="#111A2E" stroke="#1F2A44" stroke-width="3"/>
 <circle cx="1140.0" cy="100" r="28" fill="none" stroke="#00E5FF" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.749;0.760;.95;1" values="0;0;1;1;0"/></circle>
 <text x="1140.0" y="107" text-anchor="middle" style="font:700 18px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#E6EDF7">05</text>
 <text x="1140.0" y="160" text-anchor="middle" style="font:700 18px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#E6EDF7">Entregamos</text>

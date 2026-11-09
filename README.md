@@ -13,7 +13,7 @@ Webs, apps Android, APIs y bases de datos hechas a medida para quien las necesit
 
 ## Quiénes somos
 
-TechIntoBios es un equipo de tres personas que venimos de caminos distintos y nos juntamos con una idea simple: **aprender construyendo cosas que alguien realmente use**.
+En TechIntoBios somos tres personas que venimos de caminos distintos y nos juntamos con una idea simple: **aprender construyendo cosas que alguien realmente use**.
 
 No hacemos proyectos de ejemplo. Buscamos personas o emprendimientos con un problema concreto (un negocio que lleva todo en papel, un pedido que nadie sabe en qué estado está, un proceso que se repite a mano todos los días) y lo resolvemos con software.
 
@@ -68,9 +68,13 @@ No tenemos roles fijos: todos hacemos de todo y aprendemos entre todos.
 <summary><b>¿Qué significa el logo?</b></summary>
 <br />
 
-- **El engranaje:** de dónde venimos. Uno de nosotros no empezó en la programación, viene de la mecánica.
-- **Las hojas:** crecer. Lo que se cuida, crece, y eso vale para los proyectos y para nosotros.
-- **Los circuitos:** el código, lo que nos une a los tres.
+Cada parte representa a uno de nosotros:
+
+- **El engranaje · José:** su camino empezó en la electromecánica, entre reparaciones y máquinas, y de ahí pasó a la programación.
+- **Las hojas · Francisco:** el más silvestre del grupo. Le gusta la naturaleza y mira las cosas desde ese lugar.
+- **La cruz · Jeremías:** las ramas con hojas que salen del engranaje forman una cruz. Jeremías cree en Dios y se guía por su fe, siempre con respeto por todos.
+
+Las líneas que salen del engranaje no son circuitos: son los tallos y las raíces de las hojas. Tres caminos distintos que crecen desde el mismo centro.
 
 </details>
 
