@@ -12,8 +12,8 @@
 @media (prefers-reduced-motion: reduce){*{animation:none!important}.tile,.box,.fade,.pop{opacity:1!important}.bar{transform:none!important}.draw{stroke-dashoffset:0!important}}
 </style>
 <rect width="1200" height="540" rx="18" fill="#0B1220"/>
-<text class="h" x="60" y="56">Gestión 3D · ZUNOX 3D</text>
-<text class="hs" x="60" y="80">primer proyecto real · gestión de un emprendimiento de impresión 3D</text>
+<text class="h" x="60" y="56">ZUNOX 3D · Gestión 3D</text>
+<text class="hs" x="60" y="80">en producción · zunox3d.com.ar · gestión de pedidos de impresión 3D</text>
 
 <g>
 <rect x="60" y="90" width="350" height="360" rx="18" fill="#111A2E" stroke="#1F2A44"/>
@@ -30,7 +30,7 @@
 <path d="M162 354 h16 l-8 12 z" fill="#FF9F1C"/>
 </g>
 </g>
-<text x="235" y="435" text-anchor="middle" style="font:600 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5">imprimiendo pedido #0042…</text>
+<text x="235" y="435" text-anchor="middle" style="font:600 13px Consolas,'SF Mono',Menlo,'Courier New',monospace;fill:#8A9BB5">imprimiendo pedido #1042…</text>
 </g>
 
 <path d="M790 165.0 H840 M1000.0 230 V300 M840 365.0 H790" stroke="#1F2A44" stroke-width="3" fill="none" stroke-dasharray="6 8"><animate attributeName="stroke-dashoffset" from="0" to="-28" dur="1s" repeatCount="indefinite"/></path>
@@ -44,36 +44,36 @@
 <g class="box k0">
 <rect x="470" y="100" width="320" height="130" rx="16" fill="#111A2E" stroke="#00E5FF" stroke-opacity=".55"/>
 <circle cx="498" cy="134" r="7" fill="#00E5FF"><animate attributeName="r" values="6;8;6" dur="2s" begin="0.0s" repeatCount="indefinite"/></circle>
-<text x="516" y="141" class="bt">Cliente web</text>
-<rect x="704" y="120" width="66" height="26" rx="13" fill="#00E5FF" fill-opacity=".15"/>
-<text x="737" y="138" text-anchor="middle" class="tag" fill="#00E5FF">Vercel</text>
+<text x="516" y="141" class="bt">Sitio web</text>
+<rect x="690" y="120" width="80" height="26" rx="13" fill="#00E5FF" fill-opacity=".15"/>
+<text x="730" y="138" text-anchor="middle" class="tag" fill="#00E5FF">web</text>
 <text x="494" y="180" class="b1">HTML · CSS · JavaScript</text>
 <text x="494" y="206" class="b2">catálogo · consultas · seguimiento</text>
 </g><g class="box k1">
 <rect x="840" y="100" width="320" height="130" rx="16" fill="#111A2E" stroke="#7B5CFF" stroke-opacity=".55"/>
 <circle cx="868" cy="134" r="7" fill="#7B5CFF"><animate attributeName="r" values="6;8;6" dur="2s" begin="0.5s" repeatCount="indefinite"/></circle>
 <text x="886" y="141" class="bt">API REST</text>
-<rect x="1074" y="120" width="66" height="26" rx="13" fill="#7B5CFF" fill-opacity=".15"/>
-<text x="1107" y="138" text-anchor="middle" class="tag" fill="#7B5CFF">Render</text>
+<rect x="1060" y="120" width="80" height="26" rx="13" fill="#7B5CFF" fill-opacity=".15"/>
+<text x="1100" y="138" text-anchor="middle" class="tag" fill="#7B5CFF">Render</text>
 <text x="864" y="180" class="b1">ASP.NET Core · .NET 10</text>
-<text x="864" y="206" class="b2">JWT en cookie · rate limit · BCrypt</text>
+<text x="864" y="206" class="b2">Docker · JWT · mails (Resend)</text>
 </g><g class="box k2">
 <rect x="840" y="300" width="320" height="130" rx="16" fill="#111A2E" stroke="#FF9F1C" stroke-opacity=".55"/>
 <circle cx="868" cy="334" r="7" fill="#FF9F1C"><animate attributeName="r" values="6;8;6" dur="2s" begin="1.0s" repeatCount="indefinite"/></circle>
 <text x="886" y="341" class="bt">Acceso a datos</text>
-<rect x="1074" y="320" width="66" height="26" rx="13" fill="#FF9F1C" fill-opacity=".15"/>
-<text x="1107" y="338" text-anchor="middle" class="tag" fill="#FF9F1C">C#</text>
-<text x="864" y="380" class="b1">ADO.NET · Npgsql</text>
-<text x="864" y="406" class="b2">DAO → Negocio → Controllers</text>
+<rect x="1060" y="320" width="80" height="26" rx="13" fill="#FF9F1C" fill-opacity=".15"/>
+<text x="1100" y="338" text-anchor="middle" class="tag" fill="#FF9F1C">C#</text>
+<text x="864" y="380" class="b1">Npgsql · funciones SQL</text>
+<text x="864" y="406" class="b2">Controllers → Negocio → DAO</text>
 </g><g class="box k3">
 <rect x="470" y="300" width="320" height="130" rx="16" fill="#111A2E" stroke="#4F8CC9" stroke-opacity=".55"/>
 <circle cx="498" cy="334" r="7" fill="#4F8CC9"><animate attributeName="r" values="6;8;6" dur="2s" begin="1.5s" repeatCount="indefinite"/></circle>
 <text x="516" y="341" class="bt">PostgreSQL</text>
-<rect x="704" y="320" width="66" height="26" rx="13" fill="#4F8CC9" fill-opacity=".15"/>
-<text x="737" y="338" text-anchor="middle" class="tag" fill="#4F8CC9">DB</text>
+<rect x="690" y="320" width="80" height="26" rx="13" fill="#4F8CC9" fill-opacity=".15"/>
+<text x="730" y="338" text-anchor="middle" class="tag" fill="#4F8CC9">Supabase</text>
 <text x="494" y="380" class="b1">productos · pedidos · clientes</text>
 <text x="494" y="406" class="b2">categorías · estados · usuarios</text>
 </g>
 <text x="470" y="448" class="lbl" style="fill:#E6EDF7">seguimiento del pedido</text>
-<rect x="470" y="468" width="690" height="4" rx="2" fill="#1F2A44"/><rect x="470" y="468" height="4" rx="2" fill="#00E5FF" width="0"><animate attributeName="width" dur="8s" repeatCount="indefinite" keyTimes="0;.15;.4;.65;.92;1" values="0;0;230;460;690;0"/></rect><circle cx="470.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="470.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.16;.92;1" values="0;0;1;1;0"/></circle><text x="470.0" y="502" text-anchor="middle" class="lbl">Pendiente</text><circle cx="700.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="700.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.40;0.41;.92;1" values="0;0;1;1;0"/></circle><text x="700.0" y="502" text-anchor="middle" class="lbl">Imprimiendo</text><circle cx="930.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="930.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.65;0.66;.92;1" values="0;0;1;1;0"/></circle><text x="930.0" y="502" text-anchor="middle" class="lbl">Listo</text><circle cx="1160.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="1160.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.90;0.91;.92;1" values="0;0;1;1;0"/></circle><text x="1160.0" y="502" text-anchor="middle" class="lbl">Entregado</text>
+<rect x="470" y="468" width="690" height="4" rx="2" fill="#1F2A44"/><rect x="470" y="468" height="4" rx="2" fill="#00E5FF" width="0"><animate attributeName="width" dur="8s" repeatCount="indefinite" keyTimes="0;.15;.4;.65;.92;1" values="0;0;230;460;690;0"/></rect><circle cx="470.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="470.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.16;.92;1" values="0;0;1;1;0"/></circle><text x="470.0" y="502" text-anchor="middle" class="lbl">Pedido cargado</text><circle cx="700.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="700.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.40;0.41;.92;1" values="0;0;1;1;0"/></circle><text x="700.0" y="502" text-anchor="middle" class="lbl">Pendiente</text><circle cx="930.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="930.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.65;0.66;.92;1" values="0;0;1;1;0"/></circle><text x="930.0" y="502" text-anchor="middle" class="lbl">Realizado</text><circle cx="1160.0" cy="470" r="9" fill="#0B1220" stroke="#1F2A44" stroke-width="3"/><circle cx="1160.0" cy="470" r="6" fill="#00E5FF" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.90;0.91;.92;1" values="0;0;1;1;0"/></circle><text x="1172.0" y="502" text-anchor="end" class="lbl">Aviso por mail</text>
 </svg>

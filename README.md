@@ -15,7 +15,7 @@ Webs, apps Android, APIs y bases de datos hechas a medida para quien las necesit
 
 En TechIntoBios somos tres personas que venimos de caminos distintos y nos juntamos con una idea simple: **aprender construyendo cosas que alguien realmente use**.
 
-No hacemos proyectos de ejemplo. Buscamos personas o emprendimientos con un problema concreto (un negocio que lleva todo en papel, un pedido que nadie sabe en qué estado está, un proceso que se repite a mano todos los días) y lo resolvemos con software.
+No hacemos proyectos de ejemplo. Buscamos personas o emprendimientos con un problema concreto (un negocio que lleva todo en papel, un pedido que nadie sabe en qué estado está, un proceso que se repite a mano todos los días) y lo resolvemos con software. Nuestro primer proyecto, [ZUNOX 3D](https://zunox3d.com.ar), ya está en producción y lo usa un negocio real.
 
 Trabajamos como equipo, no como tres freelancers sueltos. Todavía no tenemos roles fijos: todos hacemos de todo, front, back y base de datos, y aprendemos entre todos. Nos repartimos las tareas de cada proyecto, revisamos el código del otro y lo que no sabemos lo aprendemos en el camino.
 
@@ -33,20 +33,34 @@ Trabajamos como equipo, no como tres freelancers sueltos. Todavía no tenemos ro
 
 ## Proyectos
 
-### Gestión 3D · ZUNOX 3D &nbsp;`en desarrollo`
+### ZUNOX 3D · Gestión 3D &nbsp;`en producción`
 
-Nuestro primer proyecto real. Es un sistema para un emprendimiento de **impresión 3D a medida**: el cliente ve el catálogo y consulta por WhatsApp, y el negocio administra productos, categorías, clientes y pedidos, con seguimiento del estado de cada impresión.
+[**Ver el sitio → zunox3d.com.ar**](https://zunox3d.com.ar) &nbsp;·&nbsp; [Repositorio](https://github.com/TechIntoBios/Gestion-3D)
 
-<img src="assets/gestion-3d.svg" width="100%" alt="Gestión 3D: arquitectura del sistema y seguimiento de pedidos" />
+Nuestro primer proyecto real, **terminado y funcionando** para un emprendimiento de **impresión 3D a medida**. Es el sitio público y el sistema interno del negocio: el cliente ve el catálogo, consulta por WhatsApp y sigue su pedido con un link propio; el negocio carga pedidos, administra el catálogo y le avisa al cliente por mail cuando cambia el estado.
 
-- **Sitio público:** catálogo por categorías, consultas directas por WhatsApp y seguimiento del pedido.
-- **Panel de administración:** alta de productos y categorías, búsqueda de clientes y gestión de pedidos.
-- **API REST:** ASP.NET Core sobre .NET 10, separada en capas (Controllers → Negocio → Datos).
-- **Datos:** ADO.NET con Npgsql contra PostgreSQL, con consultas parametrizadas.
-- **Seguridad:** JWT en cookie HttpOnly, contraseñas con BCrypt, límite de intentos de login y rate limiting por IP.
-- **Deploy:** frontend en Vercel y API en Render.
+<p align="center">
+  <a href="https://zunox3d.com.ar"><img src="https://raw.githubusercontent.com/TechIntoBios/Gestion-3D/main/docs/imagenes/01-inicio-impresora.png" width="720" alt="Página de inicio de ZUNOX 3D con la impresora 3D animada" /></a>
+</p>
 
-> Repositorio: [TechIntoBios/Gestion-3D](https://github.com/TechIntoBios/Gestion-3D)
+<img src="assets/gestion-3d.svg" width="100%" alt="ZUNOX 3D: arquitectura del sistema en producción y recorrido de un pedido" />
+
+**Qué hace**
+
+- **Sitio público:** impresora 3D animada en el inicio, catálogo por categorías y formulario que arma la consulta para WhatsApp.
+- **Seguimiento para el cliente:** cada pedido tiene un link único donde ve el estado, el detalle y el total, con sus datos personales parcialmente ocultos.
+- **Panel de administración:** carga de pedidos buscando al cliente por teléfono, alta y edición de productos y categorías, y cambio de estado de cada pedido.
+- **Avisos por mail:** cuando cambia el estado de un pedido, el cliente recibe un mail automático.
+
+**Cómo está hecho**
+
+- **Backend:** API REST en ASP.NET Core sobre .NET 10, en capas (Controllers → Negocio → Datos), que también sirve las páginas.
+- **Base de datos:** PostgreSQL en Supabase, con la lógica de escritura en funciones SQL y acceso desde C# con Npgsql.
+- **Frontend:** HTML, CSS y JavaScript puro, sin frameworks, adaptable a celular, tableta y escritorio.
+- **Seguridad:** sesión con JWT en cookie `HttpOnly`, contraseñas con BCrypt, bloqueo por intentos fallidos, cabeceras de seguridad (CSP, HSTS) y consultas parametrizadas.
+- **Infraestructura:** contenedor Docker en Render, mails con Resend, dominio en NIC.ar con DNS en Cloudflare y monitoreo con UptimeRobot.
+
+Aunque ya está en producción, el proyecto sigue vivo: lo próximo son pruebas automáticas, reenvío de mails desde el panel y soporte para varios usuarios.
 
 _Próximamente: más proyectos._
 
